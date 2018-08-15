@@ -1,0 +1,217 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+	<title>PRACTICE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple">
+	<link rel="stylesheet" type="text/css" href="webpage2.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<style type="text/css">
+		#company{
+			font-family: arial;
+			color: white;
+			display:block;
+			position: fixed;
+			box-shadow: 0px 5px 15px black;
+			top: 0;
+			z-index: 1;
+			width: 96%;
+			font-size: 50px;
+			font-weight: bold;
+			background-color: black;
+			padding:20px;
+
+		}
+
+		#menu{
+			float: left;
+			position: fixed;
+			top:107px;
+			z-index: 1;
+			background-color: #666666;
+			height:auto;
+			max-width:120px;
+			box-shadow: 8px 0 10px gray;
+			overflow:auto;
+		}
+
+		#logo{
+			position: fixed;
+			background-attachment: fixed;
+			z-index: -1;
+			opacity: 0.3;
+			height: 75%;	
+			top:130px;
+			max-width: 100%;
+			left:30%;
+
+		}
+		
+
+		#menu div{
+			padding: 10px;
+			text-align: center;
+			cursor: pointer;
+			font-weight: bold;
+			transition: background-color 0.3s, color 0.3s;
+			transition-timing-function: ease-in-out;
+		}
+
+
+		#menu div:hover{
+			background-color: #a3a3a3;
+			color: white;
+		}
+
+
+
+		#content img{
+			border:2px solid black;
+			height: 75px; 
+			width:100px; 
+			display: inline-block;
+			position: relative; 
+			z-index: -1;
+			left: 200px; 
+			top:160px; 
+			border-radius: 25px; 
+			cursor: pointer;
+			
+			opacity: 0.5;
+			transition-property:height, width, opacity, transform;
+			transition-timing-function: ease-in-out;
+			transition-duration: 0.4s;	
+		}
+
+
+		#ext{
+			 display: absolute;
+			 top:75px;
+			 background-color: black; 
+			 color:white; 
+			 font-weight: bold;
+			 height: 50px;
+			 
+			 font-size: 25px;
+			 margin-top: 100px; 
+		}
+
+		
+		#ext:hover{
+			color: black;
+		}
+
+
+		#contact{
+			position: fixed;
+			bottom: 0;
+			left: 128px;
+			background-color: rgb(135,143,136);
+			color: white;
+			width:90%;
+			box-shadow: 5px -5px 10px black;
+			height:66px;
+			border-radius: 0px 20px 20px 0px;
+			border: 2px solid gray;
+			z-index: +1;
+			text-align: center;
+			line-height: 25px;
+			margin-top: 30px;
+			overflow: auto;
+		}
+
+		#ieee{
+			height: 200px;
+			max-width: 300px;
+			padding: 10px;
+			border:2px solid black;
+			margin-left: 200px;
+			clear: top;
+		}
+
+		a{
+			color: green;
+		}
+
+		a:hover{
+			color:blue;
+		}
+
+		#imsec{
+			cursor: pointer;
+			display:inline-block;
+			position: relative;
+			width:243px; 
+			height: auto;
+			border: 2px solid black; 
+			border-radius: 20px; 
+			background: linear-gradient(to bottom right,gray, white);
+			top:250px;
+			left:150px;
+			margin: 50px;
+			box-shadow: 3px 3px 15px black;
+		}
+
+		#imsec img{
+			width: 200px; 
+			height: 150px;
+			margin: 20px; 
+			border: 2px solid black; 
+			border-radius: 20px;
+
+		}
+
+		#imsec span{
+			text-align: center; 
+			display: block; 
+			font-family: sans-serif;
+			padding-bottom: 10px;
+			font-weight: bold;
+		}
+
+		#imsec:hover{
+			opacity: 0.6;
+		}
+
+
+
+
+	</style>
+	<script type="text/javascript" src="webpage2.js">
+	</script>
+
+	
+</head>
+<body bgcolor="#eaeaea">
+
+	<div id="company">Microsoft<sup>&copy</sup><img src="ms.png" style="float: right;height:80px; position :absolute; right:20px; top:20px"></div>
+	<span id="sp"></span>
+
+	<div id="menu">
+		<div><center><img src="home.png" style="height: 50px; filter: invert(0%)"></center>&ltHOME&gt</div>
+		<div><center><img src="about.jpg" style="height: 50px;"></center>&ltABOUT&gt</div>
+		<div><center><img src="service.png" style="height: 50px;"></center>&ltSERVICES&gt</div>
+
+		<br><br><br><br><br>
+		<div id="ext">Contact<br>&gt&gt</div>
+	</div>
+
+	<img src="http://kelion.github.io/barcelona-js-electron/pictures/windows.png" id="logo">
+	<div id="content">
+		
+	<div style="position: relative; top: 150px;left: 30px;"><h1 style="position: relative;font-family: Cooper Black; font-size: 40px; left: 110px;" id="head">Informal alternate to MS official website</h1>
+		<div style="position: absolute;max-width: 80%;left:110px; text-align: justify;padding: 50px; font-family: Rancho; font-size: 2.5vw; text-indent: 50px;" id="cont">Made by Vaidesh Shankar&copy, USICT, GGSIPU
+		<!--<div><img src="C:\Users\HP\Local Settings\Desktop\New folder (2)\photos\ieee logo.png" id="ieee"></div>-->
+	</div>
+	</div>
+	</div>
+	<div id="img"></div>
+	
+	<div id="contact">Contact us : <a href="https://support.microsoft.com/en-in/contactus/" target="_blank">https://support.microsoft.com/en-in/contactus/</a><br>Website : <a href="https://www.microsoft.com/en-in" target="_blank">https://www.microsoft.com/en-in</a></div>
+	
+	
+</body>
+</html>
